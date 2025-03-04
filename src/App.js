@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import RandomQuestion from './components/RandomQuestion';
 import FeedbackForm from './components/FeedbackForm';
-import Analytics from '@vercel/analytics/react'; // Импортируйте компонент Analytics
+import { Analytics } from '@vercel/analytics/react';
 import 'animate.css'
 import './App.css';
 
