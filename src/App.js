@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import RandomQuestion from './components/RandomQuestion';
 import FeedbackForm from './components/FeedbackForm';
+import Analytics from '@vercel/analytics/react'; // Импортируйте компонент Analytics
 import 'animate.css'
 import './App.css';
 
@@ -9,6 +10,7 @@ const App = () => {
 
   return (
     <div className="container">
+    <Analytics/>
       <header className='animate__animated animate__slideInDown'>
         <h1>Skriftlig assistent</h1>
       </header>
