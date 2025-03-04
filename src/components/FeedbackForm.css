@@ -1,0 +1,267 @@
+/* src/components/FeedbackForm.css */
+
+.clear-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  justify-content: center; 
+}
+
+.clear-button {
+  margin-top: 18px;
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #0056b3, #004494);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.feedback-form {
+  padding: 20px 16px 30px;
+}
+
+.feedback-form h2 {
+  margin-bottom: 15px;
+  font-size: 1.75rem;
+  text-align: center;
+  color: #333;
+}
+
+
+.topic-input,
+.feedback-textarea,
+.language-select {
+  display: block;
+  width: 80%;
+  margin: 0px auto 0px;
+  padding: 12px;
+  font-size: 0.97rem;
+  border: 2px solid #ccc;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #e0e0e0 0%, #d0d0d0 50%, #c0c0c0 100%);
+  box-shadow: 
+    5px 9px 8px rgba(0, 0, 0, 0.427);
+  transition: all 0.3s ease;
+  margin-bottom: 15px;
+}
+
+.topic-input {
+  resize: none;   
+}
+
+.topic-input::placeholder,
+.feedback-textarea::placeholder {
+  color: #797979;
+}
+
+.feedback-textarea {
+  min-height: 105px;
+  resize: vertical;
+}
+
+.topic-input:focus,
+.feedback-textarea:focus {
+  outline: none;
+  border: 2px solid#0096FF;
+  background: linear-gradient(135deg, #eaeaea, #cfcfcf);
+}
+
+.language-select {
+  /* Сбрасываем стандартное оформление */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  width: 20%;
+  padding: 10px;  /* Отступ справа для размещения кастомной стрелки */
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  text-align-last: center;
+  color: #333;
+  
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  
+  /* Внешняя тень для объёма */
+  box-shadow: 
+    5px 9px 8px rgba(0, 0, 0, 0.427);
+  
+  /* Плавные переходы для интерактивных эффектов */
+  transition: all 0.3s ease;
+  
+  /* Кастомная стрелка через SVG data URI */
+  background: linear-gradient(135deg, #e0e0e0 0%, #d0d0d0 50%, #c0c0c0 100%);
+  cursor: pointer;
+}
+
+
+
+/* Стили для фокуса */
+
+.feedback-button {
+  display: block;
+  margin: 80px auto 40px;
+  padding: 16px 28px;
+  font-size: 1.1rem;
+  background-color :rgb(51, 190, 83);
+  border-radius: 24px;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.feedback-button:hover {
+  box-shadow: 6px 8px 10px #ccc;
+}
+
+.feedback-button:active {
+  background-color :rgb(41, 174, 72);
+}
+
+.feedback-form button:disabled {
+  cursor: not-allowed;
+}
+
+.feedback-form button:disabled:hover {
+  box-shadow: none;
+  background: linear-gradient(45deg, #0056b3, #004494);
+  cursor: not-allowed;
+}
+
+.feedback-form .feedback-button:disabled:hover {
+  background: rgb(51, 190, 83);
+  box-shadow: none;
+}
+
+
+.feedback-response {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  background-color: #f9f9f9;
+  line-height: 1.5;
+  color: #333;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.feedback-text {
+  font-size: 1.1rem;         /* Чуть увеличенный размер шрифта */
+  color: #444;               /* Тёмно-серый цвет текста */
+  background-color: #fff;    /* Белый фон для контраста */
+  padding: 15px;             /* Внутренние отступы */
+  border-left: 4px solid #007aff; /* Синяя левая граница для акцента */
+  border-radius: 4px;        /* Немного скругленные углы */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Лёгкая тень для объёма */
+  margin-top: 10px;          /* Отступ сверху от других элементов */
+}
+
+.feedback-note {
+  font-size: 0.95rem;           /* немного меньший размер шрифта */
+  font-style: italic;           /* курсивное начертание для выделения */
+  color: #555;                  /* темно-серый цвет текста */
+  background-color: #e6f7ff;    /* светло-голубой фон */
+  padding: 4px 8px;             /* внутренние отступы для удобочитаемости */
+  border-radius: 4px;           /* скруглённые углы */
+  margin: 4px 0;                /* небольшой отступ сверху и снизу */
+  display: inline-block;        /* чтобы элемент не занимал всю ширину */
+}
+
+.feedback-copy-button {
+  margin-top: 10px;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  background-color: #ff3b30;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.feedback-copy-button:hover {
+  background-color: #e03228;
+}
+
+@media (max-width: 1193px) {
+  .random-question {
+    padding: 5px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+
+  .random-question button {
+    width: 60%;
+    margin: 15px auto 0;
+  }
+
+  .topic-input,
+  .feedback-textarea {
+    width: 86%; /* Полная ширина для узких экранов */
+  }
+
+  .language-select {
+    width: 20%;
+  }
+  
+  .feedback-button {
+    width: 60%;
+    margin: 55px auto 20px auto;
+    font-size: 1rem;
+  }
+}
+
+/* Адаптация для мобильных устройств (до 600px) */
+@media (max-width: 600px) {
+  .feedback-form h2 {
+    font-size: 1.6rem;
+  }
+  
+  .topic-input,
+  .language-select {
+    font-size: 1rem;
+  }
+
+  .feedback-textarea {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+  }
+
+  .topic-input,
+  .feedback-textarea {
+    width: 100%;
+  }
+
+  .topic-input::placeholder,
+  .feedback-textarea::placeholder {
+    font-size: 1rem;
+  }
+
+  .language-select {
+    width: 60%;
+  }
+  
+  .feedback-button {
+    width: 90%;
+  }
+  
+  .clear-button {
+    margin-top: 24px;
+    font-size: 1rem;
+    padding: 10px 18px;
+  }
+}

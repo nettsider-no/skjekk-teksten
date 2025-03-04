@@ -1,38 +1,145 @@
-.App {
+/* App.css */
+
+/* Базовые стили для всего приложения */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+/* Контейнер для всего приложения с использованием grid layout */
+.container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "header header"
+    "question feedback";
+  gap: 30px;
+  max-width: 1400px; /* 1200 */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+/* Стили для шапки */
+header {
+  grid-area: header;
   text-align: center;
+  margin-top: 20px;
+  padding: 40px 30px;
+  background: linear-gradient(135deg, #444444 0%, #000000 50%, #444444 100%);
+  box-shadow:
+    0 2px 4px rgba(0, 0, 0, 0.373),
+    0 8px 16px rgba(0, 0, 0, 0.373);
+  border-radius: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Заголовок шапки */
+header h1 {
+  text-align: left;
+  margin: 0;
+  font-size: 2.5rem;
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Секция для генерации темы */
+.question-section {
+  grid-area: question;
+  background: linear-gradient(
+    180deg,
+    /* Верхняя часть — тёмно-синий */
+    #101D37 0%,
+    /* Средний переход — более насыщенный синий */
+    #2C488C 50%,
+    /* Нижняя часть — светлый синий */
+    #A7B9F6 100%
+  );
+  padding: 20px;
+  border-radius: 36px;
+  box-shadow:
+    0 2px 4px rgba(16, 29, 55, 0.4),  /* более тёмный */
+    0 8px 16px rgba(16, 29, 55, 0.3); /* более «мягкий» слой */
+}
+
+/* Секция для фидбека */
+.feedback-section {
+  position: relative;
+  z-index: 0;
+  grid-area: feedback;            /* чтобы псевдоэлемент уходил под основной контент */
+  background: conic-gradient(from 45deg,#BB64FF,#FF2288,#FF8B00 28%,#F2416B,#e750de 60%,#0096FF,#BB64FF); 
+  padding: 12px;
+  border-radius: 36px;
+  box-shadow: 
+    0 6px 12px rgba(0, 0, 0, 0.15),
+    0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.feedback-section::before {
+  content: "";
+    position: absolute;
+    inset: 18px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 15px #ffffff;
+    z-index: -1;
+    pointer-events: none;
+    background-color: #ffffff;
+}
+
+
+
+
+/* Стили для кнопок */
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #007aff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+
+@media (max-width: 1024px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "header"
+      "question"
+      "feedback";
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Для мобильных (до 600px) */
+@media (max-width: 600px) {
+  .container {
+    gap: 16px;
+    padding: 10px;
   }
-  to {
-    transform: rotate(360deg);
+
+  header {
+    padding: 40px 20px;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  .question-section,
+  .feedback-section {
+    padding: 15px;
+    border-radius: 20px;
   }
 }
+
+
+
