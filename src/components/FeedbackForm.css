@@ -30,12 +30,17 @@
   color: #333;
 }
 
+.topic-input,
+.feedback-textarea {
+  font-style: italic;
+}
+
 
 .topic-input,
 .feedback-textarea,
 .language-select {
   display: block;
-  width: 80%;
+  width: 100%;
   margin: 0px auto 0px;
   padding: 12px;
   font-size: 0.97rem;
@@ -49,7 +54,7 @@
 }
 
 .topic-input {
-  resize: none;   
+  resize: none; 
 }
 
 .topic-input::placeholder,
@@ -195,23 +200,14 @@
   background-color: #e03228;
 }
 
-@media (max-width: 1193px) {
-  .random-question {
-    padding: 5px;
-  }
-}
+
 
 
 @media (max-width: 1024px) {
 
-  .random-question button {
-    width: 60%;
-    margin: 15px auto 0;
-  }
-
   .topic-input,
   .feedback-textarea {
-    width: 86%; /* Полная ширина для узких экранов */
+    width: 100%; /* Полная ширина для узких экранов */
   }
 
   .language-select {
@@ -237,13 +233,8 @@
   }
 
   .feedback-textarea {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     letter-spacing: 1px;
-  }
-
-  .topic-input,
-  .feedback-textarea {
-    width: 100%;
   }
 
   .topic-input::placeholder,
@@ -258,10 +249,28 @@
   .feedback-button {
     width: 90%;
   }
-  
+ 
   .clear-button {
     margin-top: 24px;
     font-size: 1rem;
     padding: 10px 18px;
+  }
+}
+
+@media (max-width: 580px) {
+ 
+  .feedback-form {
+    padding: 16px 6px 20px;
+  }
+  .topic-input,
+  .feedback-textarea {
+    padding: 10px 8px;
+    width: 100%; /* Полная ширина для узких экранов */
+  }
+  .topic-input {
+    min-height: 50px;
+  }
+  .feedback-textarea {
+    min-height: 350px;
   }
 }

@@ -56,6 +56,7 @@ header h1 {
     /* Нижняя часть — светлый синий */
     #A7B9F6 100%
   );
+  max-height: 350px;
   padding: 20px;
   border-radius: 36px;
   box-shadow:
@@ -136,8 +137,18 @@ button:disabled {
   
   .question-section,
   .feedback-section {
-    padding: 15px;
+    padding: 15px 15px 26px;
     border-radius: 20px;
+  }
+}
+
+@media (max-width: 580px) {
+   header {
+    padding: 26px;
+  }
+  .question-section, 
+  .feedback-section {
+    padding: 10px 10px 30px;
   }
 }
 

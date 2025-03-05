@@ -483,6 +483,7 @@ Based on all of these criteria (which are very important!), provide a precise an
 - Wrap the overall evaluation in a <div class="feedback-text">.
 - The language level should be clearly indicated in an <h3> tag.
 - Any important remarks or examples of mistakes should be enclosed in a <span class="feedback-note">.
+The ENTIRE response must be in ${feedbackLanguage}(not another language! IT IS CERY IMPORTANT! TRY TO DO YOUR BEST AND USE ALL OF YOU CAPABILITEIS TO ROVIDE ENITR RESPONSE IN ${feedbackLanguage}) (except any examples directly extracted from the input text, which must remain in Norwegian).
 Your response must include:
 - A clear and definitive indication of the text's language level in an <h3> tag.
 - A thorough analysis of the text, explaining in detail why the text corresponds to that level, according to the specified criteria.
@@ -491,8 +492,9 @@ Your response must include:
 - For every issue or area for improvement that you identify in the text, you must provide a corrected or improved version of that section along with a brief explanation of why this change is recommended. Do not simply point out the problem; include a specific suggestion for how to fix it.
 - After providing your detailed evaluation and analysis of the text, include a brief motivational message that praises the candidate for their effort and highlights the strengths of their writing. The message should be supportive and positive, encouraging the candidate to continue improving and working on any identified issues, so that they feel motivated to further develop their language skills.
 -To provide an accurate assessment, the text must be at least **50 words long**. If the text is shorter than this, try to estimate the level but include a note stating that the result is highly uncertain due to insufficient text length.
-Do not include extra headings (such as 'Evaluation', 'Analysis', or 'Motivation')—provide a single, coherent piece of feedback. If you cannot provide feedback, output an error message in uppercase wrapped in a <strong> tag in ${feedbackLanguage} (not another language!) that clearly explains why feedback cannot be given.
-Note: You must evaluate only texts written in Norwegian. The entire response must be in ${feedbackLanguage}(not another language!) (except any examples directly extracted from the input text, which must remain in Norwegian).
+Do not include extra headings (such as 'Evaluation', 'Analysis', or 'Motivation')—provide a single, coherent piece of feedback. If you cannot provide feedback, output an error message in uppercase wrapped in a <strong> tag  also in ${feedbackLanguage} (not another language!) that clearly explains why feedback cannot be given.
+Note: You must evaluate only texts written in Norwegian.
+And do not forgett please that ENTIRE RESPONSE MUST BE PROVIDED IN ${feedbackLanguage}. And DO NOT FORGETT to read all the critera to provide a precise analysis of the text's language level and explnation why the text is evaluated at that level.
 Now, evaluate the following text:
 
 Tema: ${currentTopic}
