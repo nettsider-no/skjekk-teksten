@@ -486,12 +486,34 @@ Based on all of these criteria (which are very important!), provide a precise an
 The ENTIRE response must be in ${feedbackLanguage}(not another language! IT IS CERY IMPORTANT! TRY TO DO YOUR BEST AND USE ALL OF YOU CAPABILITEIS TO ROVIDE ENITR RESPONSE IN ${feedbackLanguage}) (except any examples directly extracted from the input text, which must remain in Norwegian).
 Your response must include:
 - A clear and definitive indication of the text's language level in an <h3> tag.
-- A thorough analysis of the text, explaining in detail why the text corresponds to that level, according to the specified criteria.
+- A thorough analysis of the text, explaining in detail why the text corresponds to that level, according to the specified criteria.       
 - Specific praise for the strengths of the text (e.g., clarity, organization, appropriate vocabulary, etc.), integrated naturally into the feedback.
 - Constructive suggestions on what areas could be improved (if any), with specific recommendations.
 - For every issue or area for improvement that you identify in the text, you must provide a corrected or improved version of that section along with a brief explanation of why this change is recommended. Do not simply point out the problem; include a specific suggestion for how to fix it.
 - After providing your detailed evaluation and analysis of the text, include a brief motivational message that praises the candidate for their effort and highlights the strengths of their writing. The message should be supportive and positive, encouraging the candidate to continue improving and working on any identified issues, so that they feel motivated to further develop their language skills.
 -To provide an accurate assessment, the text must be at least **50 words long**. If the text is shorter than this, try to estimate the level but include a note stating that the result is highly uncertain due to insufficient text length.
+Plus to ensure a precise evaluation, you must also focus on the following aspects additionaly to the provided instructions:  
+- **Grammar and Syntax**: Identify incorrect word order, subject-verb placement, and errors in definite and indefinite forms.  
+- **Word Choice and Idiomatic Expressions**: Detect unnatural phrasing and suggest more native-like alternatives.  
+- **Sentence Structure and Coherence**: Evaluate how well sentences are structured and if they follow natural Norwegian patterns.  
+- **Use of Linking Words and Conjunctions**: Ensure appropriate use of words like *"i tillegg," "derfor," "men," "fordi," "slik at."*  
+- **Article Usage (Definite & Indefinite Forms)**: Check if words like *"språk"* vs. *"språket"* are used correctly based on context.  
+- **Set Phrase Accuracy**: Recognize incorrect collocations, e.g., replace *"lage kontakter"* with **"knytte kontakter."**  
+### **Handling Errors**  
+- If a sentence contains errors, **point them out explicitly** and provide a corrected version.  
+- **If the sentence sounds unnatural, suggest a more natural way to phrase it** without losing meaning.  
+- **Do not overlook common grammatical mistakes** such as word order, article usage, and incorrect verb placement.
+(Check grammar mistakes very thoroughly, double check if you dont miss something or if you provide correct analysis everything must comply with the rules of Norwegian grammar(for example ordstilling, leddsetninger, artikler and so on))Do NOT ignore grammar mistakes or unnatural phrasing.
+  Example of a common mistake:
+  **"Gjennom arbeid man kan forbedre språk, lage gode kontakter, tjene penger og føle seg nyttig."**
+  Corrected version: 
+  "Gjennom arbeid kan man forbedre språket, knytte gode kontakter, tjene penger og føle seg nyttig."
+  *Explanation:*
+  - **Incorrect word order**: "man kan" → must be "kan man" after "Gjennom arbeid."  
+  - **Incorrect article usage**: "språk" → should be "språket" in this context.  
+  - **Unnatural phrase**: "lage kontakter" → should be **"knytte kontakter."**
+  If similar mistakes appear in the provided text, highlight them explicitly and offer corrections.
+  BE VERY CAREFUL when evaluating grammar so as not to give the wrong analysis. 
 Do not include extra headings (such as 'Evaluation', 'Analysis', or 'Motivation')—provide a single, coherent piece of feedback. If you cannot provide feedback, output an error message in uppercase wrapped in a <strong> tag  also in ${feedbackLanguage} (not another language!) that clearly explains why feedback cannot be given.
 Note: You must evaluate only texts written in Norwegian.
 And do not forgett please that ENTIRE RESPONSE MUST BE PROVIDED IN ${feedbackLanguage}. And DO NOT FORGETT to read all the critera to provide a precise analysis of the text's language level and explnation why the text is evaluated at that level.
