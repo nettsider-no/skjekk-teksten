@@ -387,8 +387,7 @@ misforståelser, men dette gjelder først og fremst hvis de velger å uttrykke s
 emner som er abstrakte eller som de har mindre kjennskap til. Ordforrådet er en del
 mer utbygd enn på A2, slik at kandidatene til en viss grad kan uttrykke seg om slike
 emner. Oppgavene på A2-B1 har i utgangspunktet relativt konkret tematikk som
-man kan regne med at alle kandidatene kjenner til, men siden oppgavene åpner for
-BOKMÅL | 06.06.23 | 11 fri språklig produksjon, vil en del kandidater på dette prøvenivået likevel komme inn
+man kan regne med at alle kandidatene kjenner til, men siden oppgavene åpner for fri språklig produksjon, vil en del kandidater på dette prøvenivået likevel komme inn
 på temaer som er relativt ukjente for dem. På B2 har kandidatene tilegnet seg et bredt ordforråd som de kan bruke på en ganske variert og presis måte, også når de omtaler abstrakte og ukjente emner. De velger i all
 hovedsak ord som passer i sammenhengen. Fortsatt kan feil forekomme, men dette
 skal i utgangspunktet ikke føre til misforståelser. Unntaksvis vil sensor likevel kunne
@@ -533,7 +532,7 @@ Tekst: ${userText}
         },
         body: JSON.stringify({
           model: "gpt-4o",
-          temperature: 0.2,
+          temperature: 0.3, //0.2
           top_p: 0.9,
           frequency_penalty: 0.2,
           presence_penalty: 0.2,
