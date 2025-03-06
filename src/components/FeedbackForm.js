@@ -511,6 +511,27 @@ Plus to ensure a precise evaluation, you must also focus on the following aspect
   - **Incorrect word order**: "man kan" → must be "kan man" after "Gjennom arbeid."  
   - **Incorrect article usage**: "språk" → should be "språket" in this context.  
   - **Unnatural phrase**: "lage kontakter" → should be **"knytte kontakter."**
+  Another example:
+  Bør det være aldersgrense på energidrikker?
+
+Mange ungdom drikker energidrikker fordi det er populær og gir mye energi. Men er det egentlig bra for helse? Noen mener at det bør være aldersgrense på energidrikker fordi det inneholder mye sukker og koffein. Koffein kan gjøre at man blir urolig og sover dårlig.På den annen siden, noen synes at folk skal bestemme selv om de vil drikke det eller ikke. Hvis vi har aldersgrense, kanskje det blir vanskeligere for ungdom å få energi til skole og sport.Jeg synes at en liten aldersgrense kan være en bra ide. Kanskje 16 år er en god grense, fordi da er man mer voksen og kan ta ansvar for egen helse.
+Mistakes and inaccuracies in the text:
+1.	“Mange ungdom drikker” → “Mange ungdommer drikker”
+2.	“det er populær” → “det er populært”
+3.	“bra for helse” → “bra for helsen”
+4.	“På den annen siden, noen synes at…” → “På den andre siden synes noen at…”
+5.	“hvis vi har aldersgrense, kanskje det blir vanskeligere…” → “Hvis vi har aldersgrense, kan det kanskje bli vanskeligere…”
+6.	“en liten aldersgrense” → “en lav aldersgrense”
+7.	“fordi da er man mer voksen” → “fordi da er man eldre”
+  These were some examples of the types of errors that can be found in a text, but there may be other mistakes as well. There are also certain errors or inaccuracies that occur at specific language levels, and the frequency of errors is also important (for example, how often the author makes the same mistake).
+Try to find ALL possible inaccuracies and mistakes. Especially if there are any major or very noticeable errors, make sure to identify them.
+However, don’t forget about the criteria I gave you in Norwegian—you should apply them first and use them to determine whether a mistake is acceptable at a given language level.
+There are also some nuances, like in this part of the sentence:
+“fordi da er man mer voksen.”
+Saying “fordi da er man mer voksen” is not a serious grammatical mistake, but “fordi da er man eldre” would sound better and more natural. This could even affect the overall level of the text.
+Therefore, if you find similar cases where a more natural phrasing could be used, point them out, but be VERY sure that your suggestion is correct so as not to confuse or mislead.
+Some mistakes are not critical for A2 level but are critical for B1–B2, so carefully read the Norwegian criteria I gave you above to accurately assess the text.
+Pay special attention to word order in sentences (leddsetninger, helsetninger, etc.), since this is a common area where mistakes occur.  
   If similar mistakes appear in the provided text, highlight them explicitly and offer corrections.
   BE VERY CAREFUL when evaluating grammar so as not to give the wrong analysis. 
 Do not include extra headings (such as 'Evaluation', 'Analysis', or 'Motivation')—provide a single, coherent piece of feedback. If you cannot provide feedback, output an error message in uppercase wrapped in a <strong> tag  also in ${feedbackLanguage} (not another language!) that clearly explains why feedback cannot be given.
@@ -532,7 +553,7 @@ Tekst: ${userText}
         },
         body: JSON.stringify({
           model: "gpt-4o",
-          temperature: 0.3, //0.2
+          temperature: 0.2, //0.2
           top_p: 0.9,
           frequency_penalty: 0.2,
           presence_penalty: 0.2,
