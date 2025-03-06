@@ -523,7 +523,77 @@ Mistakes and inaccuracies in the text:
 5.	“hvis vi har aldersgrense, kanskje det blir vanskeligere…” → “Hvis vi har aldersgrense, kan det kanskje bli vanskeligere…”
 6.	“en liten aldersgrense” → “en lav aldersgrense”
 7.	“fordi da er man mer voksen” → “fordi da er man eldre”
-  These were some examples of the types of errors that can be found in a text, but there may be other mistakes as well. There are also certain errors or inaccuracies that occur at specific language levels, and the frequency of errors is also important (for example, how often the author makes the same mistake).
+Here is also some examples of mistakes that you can find:
+Incorrect adjective agreement:
+“De blir trøtt fordi de ser på skjermen sent på kvelden.” → Should be “De blir trøtte”, since “de” refers to multiple people.
+Incorrect verb form in imperative sentences:
+“Men jeg tror at man må bruke det på en smart måte. Ikke bruke for mye tid, og prøve å ha pauser.” → Should be “Ikke bruk” and “prøv”, because the imperative form is required.
+Incorrect use of definite/indefinite noun forms:
+“Det er viktig at vi lærer å balansere mellom virkelighet og internett.” → Should be “virkeligheten”, since it refers to a specific, general concept.
+Word order errors:
+“I dag mange mennesker mener at vi arbeider for mye.”
+→ Should be “I dag mener mange mennesker at vi arbeider for mye.”
+Incorrect noun/adjective agreement:
+“Noen jobber mer enn 40 timer i uke, og de føler seg veldig sliten.”
+→ Should be “Noen jobber mer enn 40 timer i uka(en), og de føler seg veldig slitne.”
+“i uke” → “i uka(en)” (definite form needed).
+“sliten” → “slitne” (plural form required).
+Incorrect prepositions and unnecessary words:
+ “Hvis man jobber mye, da har man ikke tid for venner og familie.”
+→ Should be “Hvis man jobber mye, har man ikke tid til venner og familie.”
+“da” is unnecessary in a subordinate clause with “hvis”.
+“tid for” → “tid til” (correct preposition).
+Incorrect definite/indefinite noun forms:
+“Det er også farlig for helse fordi stress kan gjøre en syk.”
+→ Should be “Det er også farlig for helsen fordi stress kan gjøre en syk.”
+“for helse” → “for helsen” (definite form needed).
+Stylistic improvement suggestion:
+“På den andre siden, hvis vi arbeider mindre, vil økonomien bli dårligere.”
+• No grammatical errors, but the style could be improved.
+• A more natural phrasing could be:
+•	“På den andre siden kan mindre arbeid føre til en dårligere økonomi.”
+•	“På den andre siden kan økonomien bli svakere hvis vi arbeider mindre.”
+• This avoids repetition of “arbeider mindre” and makes the sentence sound smoother and more natural.
+• In formal writing, “På den annen side” is sometimes preferred over “På den andre siden”, but both are correct.
+Incorrect definite noun forms:
+“Mange bedrifter trenger arbeidere som kan jobbe lange dager, og kanskje vil lønn bli lavere hvis vi reduserer arbeidstid.”
+→ Should be “Mange bedrifter trenger arbeidere som kan jobbe lange dager, og kanskje vil lønna bli lavere hvis vi reduserer arbeidstiden.”
+• “Lønn” → “Lønna” (definite form, common in spoken Norwegian).
+• “arbeidstid” → “arbeidstiden” (definite form required).
+Incorrect verb forms:
+“Men jeg tenker at det er viktig å har balanse mellom jobb og fritid.”
+→ Should be “Men jeg tenker at det er viktig å ha balanse mellom jobb og fritid.”
+“å har” → “å ha”.
+Incorrect plural adjective agreement:
+“Folk som er glad og uthvilt jobber bedre.”
+→ Should be “Folk som er glade og uthvilte jobber bedre.”
+“glad” → “glade”, “uthvilt” → “uthvilte” (plural form required).
+Inconsistent pronoun use & incorrect conjunctions:
+“Jeg synes at vi må ha fleksibel arbeidstid sånn at man kan velge hvis de vil jobbe mer eller mindre.”
+→ Should be “Jeg synes at vi må ha fleksibel arbeidstid slik at man kan velge om de vil jobbe mer eller mindre.”
+• “sånn at” → “slik at” (more formal and appropriate in written Norwegian).
+• “hvis” → “om” (in this case, “om” is better for expressing a choice).
+• “man” → “de” (inconsistent pronoun use; should either use “man … man” or “de … de”).
+1. Word order mistakes (V2 rule & subordinate clauses)
+“I dag jeg går til butikken.” → “I dag går jeg til butikken.” (Verb must be in second position.)
+“Jeg vet ikke hva gjør han.” → “Jeg vet ikke hva han gjør.” (Verb follows subject in subordinate clauses.)
+“Hvis du vil, du kan komme.” → “Hvis du vil, kan du komme.”
+2. Incorrect definite/indefinite noun forms
+“Jeg liker å høre på musikken.” → “Jeg liker å høre på musikk.” (General concepts don’t take definite form.)
+3. Wrong verb forms (infinitive vs. present vs. imperative)
+“Jeg må å jobbe.” → “Jeg må jobbe.” (No “å” after modal verbs.)
+“Han prøver spise mer sunt.” → “Han prøver å spise mer sunt.” (“Å” is required before infinitives.)
+“Ikke bruke telefonen!” → “Ikke bruk telefonen!” 
+4. Preposition mistakes
+“Jeg er interessert for sport.” → “Jeg er interessert i sport.”
+“Han snakker på norsk.” → “Han snakker norsk.” (No preposition needed.)
+“Tid for å lese.” → “Tid til å lese.”
+5. Adjective agreement mistakes
+“Et stor hus.” →  “Et stort hus.” (Neuter nouns require “-t” on adjectives.)
+6. Incorrect use of “hvis” and “om”
+“Jeg vet ikke hvis han kommer.” → “Jeg vet ikke om han kommer.” 
+“Om det regner, tar jeg paraply.” → “Hvis det regner, tar jeg paraply.” (Use “hvis” for conditional sentences.)
+These were some examples of the types of errors that can be found in a text, but there may be other mistakes as well. There are also certain errors or inaccuracies that occur at specific language levels, and the frequency of errors is also important (for example, how often the author makes the same mistake).
 Try to find ALL possible inaccuracies and mistakes. Especially if there are any major or very noticeable errors, make sure to identify them.
 However, don’t forget about the criteria I gave you in Norwegian—you should apply them first and use them to determine whether a mistake is acceptable at a given language level.
 There are also some nuances, like in this part of the sentence:
@@ -553,7 +623,7 @@ Tekst: ${userText}
         },
         body: JSON.stringify({
           model: "gpt-4o",
-          temperature: 0.2, //0.2
+          temperature: 0.3, //0.2
           top_p: 0.9,
           frequency_penalty: 0.2,
           presence_penalty: 0.2,
