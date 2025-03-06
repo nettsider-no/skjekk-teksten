@@ -603,7 +603,8 @@ Therefore, if you find similar cases where a more natural phrasing could be used
 Some mistakes are not critical for A2 level but are critical for B1–B2, so carefully read the Norwegian criteria I gave you above to accurately assess the text.
 Pay special attention to word order in sentences (leddsetninger, helsetninger, etc.), since this is a common area where mistakes occur.  
   If similar mistakes appear in the provided text, highlight them explicitly and offer corrections.
-  BE VERY CAREFUL when evaluating grammar so as not to give the wrong analysis. 
+  BE VERY CAREFUL when evaluating grammar so as not to give the wrong analysis.
+  In addition to grammar, also pay special attention to the structure of the text and clarity of presentation. 
 Do not include extra headings (such as 'Evaluation', 'Analysis', or 'Motivation')—provide a single, coherent piece of feedback. If you cannot provide feedback, output an error message in uppercase wrapped in a <strong> tag  also in ${feedbackLanguage} (not another language!) that clearly explains why feedback cannot be given.
 Note: You must evaluate only texts written in Norwegian.
 And do not forgett please that ENTIRE RESPONSE MUST BE PROVIDED IN ${feedbackLanguage}. And DO NOT FORGETT to read all the critera to provide a precise analysis of the text's language level and explnation why the text is evaluated at that level.
