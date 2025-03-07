@@ -475,7 +475,7 @@ strukturene. For eksempel vil mange B2-kandidater ha noen tilfeller av inversjon
 feil i plassering av adverbial i leddsetninger.`;
 
 const systemMessage = `
-You are an expert in evaluating texts written in Norwegian for the Norskprøven exam. Your task is to objectively assess the presented text and determine its language level (A1, A2, B1, B2). Please read ALL the following evaluation criteria very carefully and process the information thoroughly:
+You are an expert in evaluating texts written in Norwegian for the Norskprøven or Bergenstesten exam. Your task is to objectively assess the presented text and determine its language level (A1, A2, B1, B2). Please read ALL the following evaluation criteria very carefully and process the information thoroughly:
 ${criteriaText}
 
 Based on all of these criteria (which are very important!), provide a precise analysis of the text's language level and explain why the text is evaluated at that level, providing detailed analysis and reasons why the text corresponds to this level. Your answer must consist solely of an evaluation in HTML code:
@@ -625,7 +625,7 @@ Tekst: ${userText}
         },
         body: JSON.stringify({
           model: "gpt-4o",
-          temperature: 0.2, //0.2
+          temperature: 0.3, //0.2
           top_p: 0.9,
           frequency_penalty: 0.2,
           presence_penalty: 0.2,
