@@ -13,6 +13,7 @@ const App = () => {
     <Analytics/>
       <header className='animate__animated animate__slideInDown'>
         <h1>Skriftlig assistent</h1>
+        <p className='header-sub-title'>Vær oppmerksom på at resultatene generert av KI kan være unøyaktige. Denne vurderingen er kun veiledende og bør ikke betraktes som en offisiell eller endelig bestemmelse av språkferdigheter.</p>
       </header>
       <section className="question-section animate__animated animate__slideInLeft">
         <RandomQuestion 

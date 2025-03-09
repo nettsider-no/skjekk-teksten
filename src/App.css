@@ -44,6 +44,10 @@ header h1 {
   color: #fff;
 }
 
+.header-sub-title {
+  color: #fff;
+}
+
 /* Секция для генерации темы */
 .question-section {
   grid-area: question;
