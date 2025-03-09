@@ -46,6 +46,7 @@ header h1 {
 
 .header-sub-title {
   color: #fff;
+  text-align: left;
 }
 
 /* Секция для генерации темы */
