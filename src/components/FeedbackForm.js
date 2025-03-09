@@ -517,7 +517,8 @@ Better to avoid in this part
   - **Consider multiple perspectives** instead of only their personal viewpoint.  
   - **Present counterarguments and explain why they agree or disagree with them.**  
 - The main body is typically divided into **paragraphs**, where **each paragraph represents a single argument or idea** (especially in argumentative texts).  
-- The content of this section varies depending on the text format, but at higher levels, it is crucial that the author can **support their opinions with logical arguments, propose solutions, and analyze different perspectives.**  
+- The content of this section varies depending on the text format, but at higher levels, it is crucial that the author can **support their opinions with logical arguments, propose solutions, and analyze different perspectives.**
+At a high level, the author must fully answer the question on the given topic. If the question requires expressing an opinion, in addition to considering the issue from different perspectives, the author must also clearly state their own viewpoint, providing arguments for and against and explaining them. This is a crucial requirement for advanced-level writing.  
 At **lower levels**, a writer might simply state their opinion or describe a problem **without strong justification**. However, at **higher levels**, the writer must provide **clear reasoning** for their thoughts and **consider different viewpoints, not just their own**.
 Better to do in this part:
 	•	Logical paragraph division: Each paragraph should contain one main idea or argument.
@@ -531,10 +532,11 @@ Better to do in this part:
 Better to avoid in this part:
 •	Overloading paragraphs with too much information. It’s better to break complex ideas into multiple paragraphs.
 •	Forgetting logical connections between paragraphs. Ensure smooth transitions for a coherent and structured text.  
-**3. Conclusion**  
+**3. Conclusion** 
 - The conclusion should be **a concise summary** of the main points and the **logical outcome** of the discussion.  
 - **No new ideas, arguments, or proposals** should be introduced in the conclusion.  
-- A well-structured conclusion should **only summarize what was discussed in the main body** and logically **wrap up** the text.  
+- A well-structured conclusion should **only summarize what was discussed in the main body** and logically **wrap up** the text.
+In the conclusion of a high-level text, no new arguments, ideas, or facts should be introduced. The conclusion should be clear and concise, serving only as a summary of the discussion.  
 - In high-level writing, the conclusion should not contain any **new thoughts, solutions, or additional arguments that were not covered earlier in the text.** 
 Better to do in this part:
 	•	Summarize the main points: Briefly restate the key ideas without introducing new information.
@@ -562,7 +564,10 @@ Better to do in this part:
 - **A well-structured text is essential for high-level proficiency.**  
 - High-level writing should be **logically organized, easy to understand, and well-connected** from one section to the next.  
 - At **higher levels, texts must be nearly free from structural errors** and **clearly communicate the intended meaning.**
-**Ensure that the provided text follows these structural principles when evaluating its level.**  
+**Ensure that the provided text follows these structural principles when evaluating its level.**
+A high-level text must have a well-defined and logical structure. For example, if a text lacks a conclusion or introduces new arguments, opinions, or perspectives in the final section, it cannot be considered a high-level text.
+Regarding argumentation and topic development, if the question requires expressing an opinion, the opinion must be explicitly stated. At an advanced level, all opinions and arguments must be explained and justified. If these elements are missing, the text cannot be considered high-level.
+It is also essential to review the assessment criteria provided in Norwegian to ensure a precise understanding of what applies to each level.  
 Some mistakes are not critical for for example A2 level but are critical for B1–B2, so carefully read the Norwegian criteria I gave you above(which are in Norwegian) to accurately assess the text.  
 - **Word Choice and Idiomatic Expressions**: Detect unnatural phrasing and suggest more native-like alternatives.  
 - **Sentence Structure and Coherence**: Evaluate how well sentences are structured and if they follow natural Norwegian patterns.  
