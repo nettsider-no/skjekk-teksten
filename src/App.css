@@ -45,7 +45,7 @@ header h1 {
 }
 
 .header-sub-title {
-  margin-top: 0;
+  margin-bottom: 0;
   text-align: left;
   font-weight: 500; /* Средняя жирность, чтобы выделить, но не перегружать */
   line-height: 1.5; /* Увеличенный межстрочный интервал для лучшего восприятия */
