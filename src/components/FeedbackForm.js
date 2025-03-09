@@ -492,7 +492,38 @@ Your response must include:
 - After providing your detailed evaluation and analysis of the text, include a brief motivational message that praises the candidate for their effort and highlights the strengths of their writing. The message should be supportive and positive, encouraging the candidate to continue improving and working on any identified issues, so that they feel motivated to further develop their language skills.
 -To provide an accurate assessment, the text must be at least **50 words long**. If the text is shorter than this, try to estimate the level but include a note stating that the result is highly uncertain due to insufficient text length.
 Plus to ensure a precise evaluation, you must also focus on the following aspects additionaly to the provided instructions:  
-- **Grammar and Syntax**: Identify incorrect word order, subject-verb placement, and errors in definite and indefinite forms.  
+- **Grammar and Syntax**: Identify incorrect word order, subject-verb placement, and errors in definite and indefinite forms.
+**The Structure of a Text**  
+Most well-written texts should have a **clear structure**, which is essential for determining the level of writing proficiency. The structure typically consists of **three main parts**:  **1. Introduction**  
+- The introduction serves as the **opening part** of the text.  
+- It should **briefly present the main topic** and **lead smoothly into the main body**.  
+- The introduction is usually short and should not contain detailed arguments, but it should **clearly state what the text will discuss**.  
+**2. Main Body**  
+- This is the **core of the text**, where the topic is fully explored.  
+- The author should **express their opinion**, **examine different aspects of the issue**, and **present arguments for and against** (if required by the format).  
+- In high-level writing, the author should:  
+  - **Justify and explain their opinions** rather than just stating them.  
+  - **Consider multiple perspectives** instead of only their personal viewpoint.  
+  - **Present counterarguments and explain why they agree or disagree with them.**  
+- The main body is typically divided into **paragraphs**, where **each paragraph represents a single argument or idea** (especially in argumentative texts).  
+- The content of this section varies depending on the text format, but at higher levels, it is crucial that the author can **support their opinions with logical arguments, propose solutions, and analyze different perspectives.**  
+At **lower levels**, a writer might simply state their opinion or describe a problem **without strong justification**. However, at **higher levels**, the writer must provide **clear reasoning** for their thoughts and **consider different viewpoints, not just their own**.  
+**3. Conclusion**  
+- The conclusion should be **a concise summary** of the main points and the **logical outcome** of the discussion.  
+- **No new ideas, arguments, or proposals** should be introduced in the conclusion.  
+- A well-structured conclusion should **only summarize what was discussed in the main body** and logically **wrap up** the text.  
+- In high-level writing, the conclusion should not contain any **new thoughts, solutions, or additional arguments that were not covered earlier in the text.**  
+**Logical Flow and Clarity**  
+- All parts of the text should be **logically connected**, allowing the reader to follow the text **smoothly from start to finish**.  
+- The meaning of the text should be **clear and well-structured**.  
+- While different text formats (e.g., **argumentative essays, emails, reports**) may have slightly different structures, **this general framework applies to most texts**, especially those requiring **argumentation**.  
+**Why Structure and Clarity Matter for Higher-Level Writing?**  
+- **A well-structured text is essential for high-level proficiency.**  
+- High-level writing should be **logically organized, easy to understand, and well-connected** from one section to the next.  
+- At **higher levels, texts must be nearly free from structural errors** and **clearly communicate the intended meaning.**
+**Ensure that the provided text follows these structural principles when evaluating its level.**  
+Some mistakes are not critical for for example A2 level but are critical for B1–B2, so carefully read the Norwegian criteria I gave you above(which are in Norwegian) to accurately assess the text.  
+
 - **Word Choice and Idiomatic Expressions**: Detect unnatural phrasing and suggest more native-like alternatives.  
 - **Sentence Structure and Coherence**: Evaluate how well sentences are structured and if they follow natural Norwegian patterns.  
 - **Use of Linking Words and Conjunctions**: Ensure appropriate use of words like *"i tillegg," "derfor," "men," "fordi," "slik at."*  
@@ -669,17 +700,41 @@ Tekst: ${userText}
   };
 
   // Функция для копирования фидбека в буфер обмена
+  
+  // const copyFeedbackToClipboard = () => {
+  //   if (feedback) {
+  //     const tempElement = document.createElement('textarea');
+  //     tempElement.value = feedback;
+  //     document.body.appendChild(tempElement);
+  //     tempElement.select();
+  //     document.execCommand('copy');
+  //     document.body.removeChild(tempElement);
+  //     alert('Feedback copied to clipboard!');
+  //   }
+  // };
+
+  // Копируем именно текст, без HTML
   const copyFeedbackToClipboard = () => {
     if (feedback) {
-      const tempElement = document.createElement('textarea');
-      tempElement.value = feedback;
-      document.body.appendChild(tempElement);
-      tempElement.select();
+      // Создаём временный div-элемент и вписываем в него наш HTML
+      const tempElement = document.createElement('div');
+      tempElement.innerHTML = feedback;
+
+      // Теперь берём только текстовое содержимое
+      const textToCopy = tempElement.textContent || tempElement.innerText;
+
+      // Создаём textarea, чтобы выделить его содержимое и скопировать
+      const textareaElement = document.createElement('textarea');
+      textareaElement.value = textToCopy;
+      document.body.appendChild(textareaElement);
+      textareaElement.select();
       document.execCommand('copy');
-      document.body.removeChild(tempElement);
+      document.body.removeChild(textareaElement);
+
       alert('Feedback copied to clipboard!');
     }
   };
+
 
   // Функция для очистки только темы
   const clearTopic = () => {
