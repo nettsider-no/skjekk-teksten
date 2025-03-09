@@ -28,7 +28,7 @@ header {
   grid-area: header;
   text-align: center;
   margin-top: 20px;
-  padding: 40px 30px;
+  padding: 24px;
   background: linear-gradient(135deg, #444444 0%, #000000 50%, #444444 100%);
   box-shadow:
     0 2px 4px rgba(0, 0, 0, 0.373),
@@ -45,8 +45,15 @@ header h1 {
 }
 
 .header-sub-title {
-  color: #fff;
   text-align: left;
+  font-size: 18px; /* Умеренно крупный размер для читаемости */
+  font-weight: 500; /* Средняя жирность, чтобы выделить, но не перегружать */
+  line-height: 1.5; /* Увеличенный межстрочный интервал для лучшего восприятия */
+  color: #333; /* Тёмно-серый цвет для лучшей читаемости */
+  background-color: #f8f9fa; /* Светлый фон, если нужно выделить */
+  padding: 10px 15px; /* Внутренние отступы для воздушности */
+  border-radius: 5px; /* Закругленные края для эстетики */
+  max-width: 80%; /* Ограничение ширины для удобства чтения */
 }
 
 /* Секция для генерации темы */
