@@ -494,10 +494,21 @@ Your response must include:
 Plus to ensure a precise evaluation, you must also focus on the following aspects additionaly to the provided instructions:  
 - **Grammar and Syntax**: Identify incorrect word order, subject-verb placement, and errors in definite and indefinite forms.
 **The Structure of a Text**  
-Most well-written texts should have a **clear structure**, which is essential for determining the level of writing proficiency. The structure typically consists of **three main parts**:  **1. Introduction**  
+Most well-written texts should have a **clear structure**, which is essential for determining the level of writing proficiency. The structure typically consists of **three main parts**:  
+**1. Introduction**  
 - The introduction serves as the **opening part** of the text.  
 - It should **briefly present the main topic** and **lead smoothly into the main body**.  
-- The introduction is usually short and should not contain detailed arguments, but it should **clearly state what the text will discuss**.  
+- The introduction is usually short and should not contain detailed arguments, but it should **clearly state what the text will discuss**.
+•	Introduction of the topic: Clearly and concisely presents what the text will be about.
+•	Context or problem statement: Identifies the issue or subject that will be discussed.
+•	Justification of relevance: Explains why the topic is important (can include a question or a fact).
+•	Outline of discussion: Gives the reader an idea of which aspects will be covered.
+•	Use of precise wording: Ensures that sentences are concise and free of unnecessary information.
+•	Connection to the main body: Smoothly transitions the introduction into the main part of the text.
+Better to avoid in this part
+•	Overly long introductions, which unnecessarily prolong the text.
+•	Mentioning details that will not be expanded upon in the main body.
+•	Summarizing the entire text: The conclusion should not be revealed in the introduction—only a brief preview is needed.  
 **2. Main Body**  
 - This is the **core of the text**, where the topic is fully explored.  
 - The author should **express their opinion**, **examine different aspects of the issue**, and **present arguments for and against** (if required by the format).  
@@ -507,12 +518,42 @@ Most well-written texts should have a **clear structure**, which is essential fo
   - **Present counterarguments and explain why they agree or disagree with them.**  
 - The main body is typically divided into **paragraphs**, where **each paragraph represents a single argument or idea** (especially in argumentative texts).  
 - The content of this section varies depending on the text format, but at higher levels, it is crucial that the author can **support their opinions with logical arguments, propose solutions, and analyze different perspectives.**  
-At **lower levels**, a writer might simply state their opinion or describe a problem **without strong justification**. However, at **higher levels**, the writer must provide **clear reasoning** for their thoughts and **consider different viewpoints, not just their own**.  
+At **lower levels**, a writer might simply state their opinion or describe a problem **without strong justification**. However, at **higher levels**, the writer must provide **clear reasoning** for their thoughts and **consider different viewpoints, not just their own**.
+Better to do in this part:
+	•	Logical paragraph division: Each paragraph should contain one main idea or argument.
+	•	Use linking words: Utilize “derfor,” “i tillegg,” “på den andre siden” for smooth transitions.
+	•	Prioritize clarity and precision over complexity: Examiners assess your ability to express ideas clearly, so avoid overly complex sentences. Simple, grammatically correct sentences can be more effective than complicated constructions prone to errors.
+	•	Argumentation and justification of opinions: At a high level, all thoughts and opinions should be well-argued. The reader needs to understand why you think a certain way. Start paragraphs with a clear statement, for example: “Jeg mener at fjernarbeid er en fordel fordi…”
+	•	One of the key characteristics of B1–B2 level texts is the ability to justify one’s opinion:
+	•	Support arguments with examples, facts, or personal experiences.
+	•	Alternative perspectives: In high-level writing, show that you consider different sides of the issue, for example: “Likevel mener noen at fjernarbeid kan føre til isolasjon.” (“However, some believe that remote work can lead to isolation.”)
+	•	The ability to analyze an issue from different angles and argue for and/or against various perspectives is a key skill at the B2 level.
+Better to avoid in this part:
+•	Overloading paragraphs with too much information. It’s better to break complex ideas into multiple paragraphs.
+•	Forgetting logical connections between paragraphs. Ensure smooth transitions for a coherent and structured text.  
 **3. Conclusion**  
 - The conclusion should be **a concise summary** of the main points and the **logical outcome** of the discussion.  
 - **No new ideas, arguments, or proposals** should be introduced in the conclusion.  
 - A well-structured conclusion should **only summarize what was discussed in the main body** and logically **wrap up** the text.  
-- In high-level writing, the conclusion should not contain any **new thoughts, solutions, or additional arguments that were not covered earlier in the text.**  
+- In high-level writing, the conclusion should not contain any **new thoughts, solutions, or additional arguments that were not covered earlier in the text.** 
+Better to do in this part:
+	•	Summarize the main points: Briefly restate the key ideas without introducing new information.
+	•	Reiterate the main argument: Reformulate the central position so that the reader remembers the final message.
+	•	Suggest solutions (if applicable): If the topic involves a problem, propose a possible solution or perspective.
+	•	Use appropriate concluding phrases:
+	•	“For å oppsummere…” (To summarize…)
+	•	“Derfor…” (Therefore…)
+	•	“Konklusjonen er…” (The conclusion is…)
+	•	“Avslutningsvis…” (In conclusion…)
+	•	“Kort oppsummert…” (Briefly summarized…)
+	•	“For å konkludere…” (To conclude…)
+	•	“Alt i alt…” (All in all…)
+	•	“Dette viser at…” (This shows that…)
+ Better to avoid in this part:
+ 	•	Introducing new arguments or facts in the conclusion.
+	•	Making the conclusion too long—it should be concise and clear.
+	•	Ending the text abruptly or unnaturally, e.g., “Sånn er det bare.” (“That’s just how it is.”)
+	•	Failing to provide a clear final statement, e.g., “Det er vanskelig å si.” (“It’s difficult to say.”)
 **Logical Flow and Clarity**  
 - All parts of the text should be **logically connected**, allowing the reader to follow the text **smoothly from start to finish**.  
 - The meaning of the text should be **clear and well-structured**.  
@@ -523,7 +564,6 @@ At **lower levels**, a writer might simply state their opinion or describe a pro
 - At **higher levels, texts must be nearly free from structural errors** and **clearly communicate the intended meaning.**
 **Ensure that the provided text follows these structural principles when evaluating its level.**  
 Some mistakes are not critical for for example A2 level but are critical for B1–B2, so carefully read the Norwegian criteria I gave you above(which are in Norwegian) to accurately assess the text.  
-
 - **Word Choice and Idiomatic Expressions**: Detect unnatural phrasing and suggest more native-like alternatives.  
 - **Sentence Structure and Coherence**: Evaluate how well sentences are structured and if they follow natural Norwegian patterns.  
 - **Use of Linking Words and Conjunctions**: Ensure appropriate use of words like *"i tillegg," "derfor," "men," "fordi," "slik at."*  
