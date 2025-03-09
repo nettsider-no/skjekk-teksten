@@ -28,7 +28,7 @@ header {
   grid-area: header;
   text-align: center;
   margin-top: 20px;
-  padding: 24px;
+  padding: 20px;
   background: linear-gradient(135deg, #444444 0%, #000000 50%, #444444 100%);
   box-shadow:
     0 2px 4px rgba(0, 0, 0, 0.373),
@@ -49,6 +49,7 @@ header h1 {
   font-weight: 500; /* Средняя жирность, чтобы выделить, но не перегружать */
   line-height: 1.5; /* Увеличенный межстрочный интервал для лучшего восприятия */
   color: #fff; /* Тёмно-серый цвет для лучшей читаемости */
+  letter-spacing: 0.75px;
   max-width: 80%; /* Ограничение ширины для удобства чтения */
 }
 
