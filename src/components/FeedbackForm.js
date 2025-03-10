@@ -481,6 +481,8 @@ ${criteriaText}
 Based on all of these criteria (which are very important!), provide a precise analysis of the text's language level and explain why the text is evaluated at that level, providing detailed analysis and reasons why the text corresponds to this level. Your answer must consist solely of an evaluation in HTML code:
 - Wrap the overall evaluation in a <div class="feedback-text">.
 - The language level should be clearly indicated in an <h3> tag.
+- All paragraphs wrap in a <p></p>
+- All subtitles wrap in <h5></>
 - Any important remarks or examples of mistakes should be enclosed in a <span class="feedback-note">.
 The ENTIRE response must be in ${feedbackLanguage}(not another language! IT IS CERY IMPORTANT! TRY TO DO YOUR BEST AND USE ALL OF YOU CAPABILITEIS TO ROVIDE ENITR RESPONSE IN ${feedbackLanguage}) (except any examples directly extracted from the input text, which must remain in Norwegian).
 Your response must include:
@@ -571,7 +573,37 @@ If for example the question or topic includes a direct question, such as “Hva 
 Additionally, a proper conclusion should not include sentences such as “En annen ting å tenke på er hvordan samfunnet ser på dette i fremtiden.” This type of statement introduces a new aspect of the discussion, whereas a conclusion should not contain new ideas, perspectives, or arguments. Instead, it should only summarize the key points presented in the main body and provide a final conclusion based solely on what has already been discussed. If the task allows, the conclusion may also include a proposed solution to the problem, but no entirely new thoughts or perspectives should be introduced.
 Remember that the structure of the text, the author’s ability to explore a given topic or answer a question, and the clarity of expression are among the most important criteria for assessing the level of a text. Even grammar does not always have as strong an impact on the evaluation (depending on the level requirements, the frequency of grammatical errors, and the complexity of the grammatical aspects in which mistakes were made) as the author’s ability to express their thoughts or discuss a topic in Norwegian in a clear and understandable way.
 It is also essential to review the assessment criteria provided in Norwegian to ensure a precise understanding of what applies to each level.  
-Some mistakes are not critical for for example A2 level but are critical for B1–B2, so carefully read the Norwegian criteria I gave you above(which are in Norwegian) to accurately assess the text.  
+Some mistakes are not critical for for example A2 level but are critical for B1–B2, so carefully read the Norwegian criteria I gave you above(which are in Norwegian) to accurately assess the text
+And here is some examples of different types of texts with a good structure:
+1.Bør småbarnsforeldre ha kortere arbeidsdag enn andre?:
+Introduction:
+In the introduction, you should briefly present the topic of the text. Here, you can explain why the issue arises and also express your opinion right away:
+I Norge er det vanlig at begge foreldrene jobber fulltid fra barna er små. Dermed er de fleste barn i barnehage i minst åtte timer hver dag. Etter min mening har barn godt av å gå i barnehage, for de lærer mye der. Likevel synes jeg at de fleste barn har for lange dager i barnehagen. Jeg mener derfor at småbarnsforeldre bør ha kortere arbeidsdag enn andre.
+
+Main body (at least two paragraphs):
+The main body should consist of at least two paragraphs where you present your points of view. It is often more effective not to write about too many perspectives but instead to elaborate on each one in detail. This can be achieved by providing arguments that support your position. You can also include one or two counterarguments against your viewpoint but explain why you still believe your position is correct:
+Noen mener at det blir dyrt for staten hvis småbarnsforeldre skal ha kortere arbeidsdag. Jeg er imidlertid ikke enig i det. De fleste foreldre vil trolig bli mer effektive på jobb hvis de ikke er trøtte og slitne hele tida.
+Dessuten tror jeg at både barna og foreldrene blir mindre syke hvis de får bedre tid og mer energi. Mindre sykefravær gir også lavere utgifter for staten.
+
+Conclusion:
+Finally, you should write a conclusion where you summarize some of the most important arguments and present your final thoughts. The conclusion should be brief, and no new aspects or points of view should be introduced:
+Dermed kan kortere arbeidsdag for småbarnsforeldre ha både økonomiske og sosiale fordeler. Selv om forslaget har noen ulemper, kan fordelene på lang sikt veie opp for dem.
+
+2.Klage på planlagt nedleggelse av nærbutikken:
+
+Til: kundeservice@[butikkjedensnavn].no
+Emne: Bekymring over nedleggelse av nærbutikken i [stedsnavn]
+Hei,
+Mitt navn er [Ditt navn], og jeg er en fast kunde ved deres filial i [stedsnavn]. Jeg skriver til dere fordi jeg har lest i avisen at denne butikken skal legges ned, og jeg vil uttrykke min store bekymring over denne beslutningen.
+Denne butikken har i mange år vært en viktig del av vårt lokalsamfunn. Mange av oss er avhengige av å ha en dagligvarebutikk i nærheten, spesielt eldre mennesker, barnefamilier og personer uten bil. Den nærmeste butikken ligger flere kilometer unna, og for mange vil det være både upraktisk og utfordrende å handle der.
+Dersom butikken legges ned, vil dette skape store problemer for oss som bor i området. Mange vil måtte bruke betydelig mer tid og penger på transport for å få tak i dagligvarer. I tillegg vil nedleggelsen påvirke lokalsamfunnet negativt, da butikken ikke bare er et sted for handel, men også en sosial møteplass for mange av oss.
+Jeg ber dere derfor om å revurdere denne beslutningen. Kanskje det finnes muligheter for å drive butikken videre, for eksempel ved å utvide sortimentet eller samarbeide med andre aktører for å øke lønnsomheten? Det er også mulig at flere i nabolaget kan engasjere seg for å finne løsninger som kan bidra til å opprettholde driften.
+Jeg håper dere tar hensyn til denne henvendelsen og vurderer alternative løsninger før en endelig beslutning tas. På vegne av mange i lokalsamfunnet ser jeg frem til en tilbakemelding fra dere.
+Med vennlig hilsen,
+[Ditt navn]
+[Din adresse]
+[Telefonnummer]
+It was some examples with good texts with good structure. Please pay attention to the structure of the text and EVALUATE IT VERY CAREFULLY. 
 - **Word Choice and Idiomatic Expressions**: Detect unnatural phrasing and suggest more native-like alternatives.  
 - **Sentence Structure and Coherence**: Evaluate how well sentences are structured and if they follow natural Norwegian patterns.  
 - **Use of Linking Words and Conjunctions**: Ensure appropriate use of words like *"i tillegg," "derfor," "men," "fordi," "slik at."*  
