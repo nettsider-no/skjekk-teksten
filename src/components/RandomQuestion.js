@@ -70,7 +70,7 @@ const RandomQuestion = ({ setCurrentTopic}) => {
 
   return (
     <div className="random-question">
-      <h2>Få tema fra KI</h2>
+      <h2>Få et tilfeldig tema</h2>
       <p className='random-question-description'>🤔 Vet du ikke hva du skal skrive om? Generer et tilfeldig spørsmål! </p>
       <p>Trykk på knappen for å få et tema fra KI</p>
       <button onClick={getRandomQuestion} disabled={loading}>
